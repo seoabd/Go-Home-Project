@@ -1,0 +1,6 @@
+let workDone = true;
+let dayFinished = true;
+
+let canGoHome = workDone || dayFinished;
+
+console.log(canGoHome);
